@@ -1,15 +1,70 @@
+@use 'bootstrap';
+
 /* variables */
 
-$dc-blue: #0282F9;
-$dc-dark: #1C1C1C;
-$dc-grey: #303030;
-$dc-light-grey: #d6cfb7;
-$dc-white: #ffffff;
+@import 'partials/variables';
+
+/* common */
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 
 /* header */
 
+@import 'partials/header';
 
 /* main */
+
+#comics_wrapper {
+    background-color: $dc-dark;
+    width: 100vw;
+    #jumbotron {
+        background-image: url('../img/jumbotron.jpg');
+        height: 400px;
+        width: 100vw;
+        background-size: cover;
+    }
+    #comics {
+        #comic {
+            color: $dc-white;
+            text-transform: uppercase;
+            p {
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: normal;
+            }
+        }
+    }
+    #controls {
+        button {
+            background-color: $dc-blue;
+            padding: 10px 40px;
+            border: none;
+            font-weight: 600;
+            color: $dc-white;
+            text-transform: uppercase;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    #merchandising {
+        background-color: $dc-blue;
+        width: 100vw;
+        height: 130px;
+        .col {
+            img {
+                height: 75px;
+            }
+            p {
+                color: $dc-white;
+                font-size: 11px;
+            }
+        }
+    }
+}
 
 
 /* footer */

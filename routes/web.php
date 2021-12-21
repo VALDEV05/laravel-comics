@@ -20,56 +20,61 @@ Route::get('/', function () {
 Route::get('/comics', function () {
 
     $comics = config('db.data');
-    /* ddd($comics); */
 
 
     return view('comics.index', compact('comics'));
-   /* return 'page comics'; */
 
 })->name('comics');
 
 
 Route::get('/characters', function () {
-   /*  return view('characters'); */
-   return 'page characters';
+
+    return view('characters.index');
+
 })->name('characters');
 
 Route::get('/movies', function () {
-   /*  return view('movies'); */
-   return 'page movies';
+
+    return view('movies.index');
+
 })->name('movies');
 
 Route::get('/tv', function () {
-   /*  return view('tv'); */
-   return 'page tv';
+    return view('tv.index');
 })->name('tv');
 
 Route::get('/games', function () {
-   /*  return view('games'); */
-   return 'page games';
+
+    return view('games.index');
+
 })->name('games');
 
 Route::get('/collectibles', function () {
-   /*  return view('collectibles'); */
-   return 'page collectibles';
+
+    return view('collectibles.index');
+
 })->name('collectibles');
 
 Route::get('/videos', function () {
-   /*  return view('videos'); */
-   return 'page videos';
+
+    return view('videos.index');
+
 })->name('videos');
 
 Route::get('/fans', function () {
-   /*  return view('fans'); */
-   return 'page fans';
+
+    return view('fans.index');
+
 })->name('fans');
 
 Route::get('/news', function () {
-   /*  return view('news'); */
-   return 'page news';
+
+    return view('news.index'); 
+
 })->name('news');
 
 Route::get('/shop', function () {
-   /*  return view('shop'); */
-   return 'page shop';
+    
+   return view('shop.index'); 
+
 })->name('shop');
