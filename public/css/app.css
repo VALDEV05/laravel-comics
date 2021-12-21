@@ -12281,3 +12281,82 @@ body {
 
 /* footer */
 
+#site_footer .jumbofooter {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  height: 410px;
+  width: 100vw;
+  background-size: cover;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu {
+  padding-top: 30px;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu ul {
+  padding-left: 0;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu ul li a {
+  text-decoration: none;
+  color: #d6cfb7;
+  font-weight: 300;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu p {
+  font-weight: 300;
+  color: #d6cfb7;
+}
+
+#site_footer .jumbofooter .col-6 .footer_menu p span a {
+  text-decoration: none;
+  color: #0282F9;
+}
+
+#site_footer .jumbofooter .logo-dc {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#site_footer #signup {
+  background-color: #1C1C1C;
+  height: 100px;
+  width: 100vw;
+}
+
+#site_footer #signup .btn-signup {
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 2px solid #0282F9;
+}
+
+#site_footer #signup .btn-signup a {
+  color: white;
+  text-decoration: none;
+}
+
+#site_footer #signup .social h5 {
+  font-weight: 700;
+  color: #0282F9;
+}
+
+#site_footer #signup .social .socials-logo {
+  height: 50px;
+  width: 300px;
+}
+
+#site_footer #signup .social .socials-logo col {
+  padding: 0px;
+}
+
+#site_footer #signup .social .socials-logo col img {
+  height: 40px;
+  width: 40px;
+}
+
